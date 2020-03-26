@@ -1,0 +1,214 @@
+{
+"repos":
+{
+  "status": "OK",
+  "errorCode": 0,
+  "statusCode": 200,
+  "result": {
+    "repositories": {
+      "Infor Ming.le": [
+       {
+          "repositoryName": "mingle_group",
+          "displayName": "Group",
+          "indexAlias": "mes$a$mngqacichat_ax1$lid_infor.social.1$mingle_group",
+          "spotlightName": "group",
+          "versions": [
+            {
+              "hitDescriptions": [
+                {
+                  "title": "{{THIS.groupname}}",
+                  "description": "Group Type : {{THIS.grouptypeid}} \u003cbr\u003e Group Description : {{THIS.groupdescription}}",
+                  "language": "en-us",
+                  "drillbackURL": "?LogicalId\u003dlid://infor.social.1\u0026pageName\u003dGroupProfilePage\u0026menuName\u003dfeedMenu\u0026data\u003d{\"GroupId\":{{item._source.groupid}},\"GenFeedMarkup\":true}",
+                  "isDefault": true,
+                  "id": 96293
+                }
+              ],
+              "status": 1,
+              "deprecated": false,
+              "version": "2",
+              "indexName": "mes$i$v2$lid_infor.social.1$mingle_group$2$1561039933713",
+              "repositoryName": "mingle_group",
+              "repositoryElements": [
+                {
+                  "elementName": "admin",
+                  "type": "boolean",
+                  "id": 224375
+                },
+                {
+                  "elementName": "createddate",
+                  "type": "date",
+                  "id": 224379
+                },
+                {
+                  "elementName": "department",
+                  "type": "text",
+                  "id": 224373
+                },
+                {
+                  "elementName": "groupdescription",
+                  "type": "text",
+                  "id": 224374
+                },
+                {
+                  "elementName": "groupguid",
+                  "type": "keyword",
+                  "id": 224369
+                },
+                {
+                  "elementName": "groupid",
+                  "type": "long",
+                  "id": 224368
+                },
+                {
+                  "elementName": "groupname",
+                  "type": "text",
+                  "id": 224370
+                },
+                {
+                  "elementName": "grouptypeid",
+                  "type": "text",
+                  "id": 224372
+                },
+                {
+                  "elementName": "isonlyadmin",
+                  "type": "boolean",
+                  "id": 224376
+                },
+                {
+                  "elementName": "msgid",
+                  "type": "long",
+                  "id": 224378
+                },
+                {
+                  "elementName": "skills",
+                  "type": "text",
+                  "id": 224371
+                },
+                {
+                  "elementName": "statusid",
+                  "type": "text",
+                  "id": 224377
+                },
+                {
+                  "elementName": "updateddate",
+                  "type": "date",
+                  "id": 224380
+                }
+              ],
+              "generation": 2,
+              "id": 78383
+            }
+          ],
+          "id": 78396
+        },
+        {
+          "repositoryName": "mingle_post",
+          "displayName": "Post",
+          "indexAlias": "mes$a$mngqacichat_ax1$lid_infor.social.1$mingle_post",
+          "spotlightName": "post",
+          "versions": [
+            {
+              "hitDescriptions": [
+                {
+                  "title": "{{THIS.messagetext}}",
+                  "description": "To: {{THIS.targetedlist}} \u003cbr\u003e {{THIS.createddate | date:\"shortTime\"}} on {{THIS.createddate | date:\"shortDate\"}}",
+                  "language": "en-us",
+                  "drillbackURL": "?LogicalId\u003dlid://infor.social.1\u0026menuName\u003dfeedMenu\u0026pageName\u003dFeedDetailsPage\u0026type\u003dSocialDrillback\u0026data\u003d{\"feedSource\":\"{{item._source.msgsource}}\",\"GenFeedMarkup\":false,\"IONObjectType\":\"{{item._source.objecttype}}\",\"MsgId\":{{item._source.msgid}}}",
+                  "isDefault": true,
+                  "id": 96295
+                }
+              ],
+              "status": 1,
+              "deprecated": false,
+              "version": "2",
+              "indexName": "mes$i$v2$lid_infor.social.1$mingle_post$2$1561039934331",
+              "repositoryName": "mingle_post",
+              "repositoryElements": [
+                {
+                  "elementName": "createddate",
+                  "type": "date",
+                  "id": 224404
+                },
+                {
+                  "elementName": "drillbacks",
+                  "type": "text",
+                  "id": 224399
+                },
+                {
+                  "elementName": "messagetext",
+                  "type": "text",
+                  "id": 224397
+                },
+                {
+                  "elementName": "msgguid",
+                  "type": "keyword",
+                  "id": 224392
+                },
+                {
+                  "elementName": "msgid",
+                  "type": "integer",
+                  "id": 224391
+                },
+                {
+                  "elementName": "msgpermission",
+                  "type": "text",
+                  "id": 224396
+                },
+                {
+                  "elementName": "msgsource",
+                  "type": "text",
+                  "id": 224393
+                },
+                {
+                  "elementName": "msgtype",
+                  "type": "text",
+                  "id": 224394
+                },
+                {
+                  "elementName": "noofattachments",
+                  "type": "integer",
+                  "id": 224398
+                },
+                {
+                  "elementName": "objecttype",
+                  "type": "text",
+                  "id": 224395
+                },
+                {
+                  "elementName": "taggedgrouplist",
+                  "type": "text",
+                  "id": 224403
+                },
+                {
+                  "elementName": "taggeduserlist",
+                  "type": "text",
+                  "id": 224402
+                },
+                {
+                  "elementName": "tags",
+                  "type": "text",
+                  "id": 224401
+                },
+                {
+                  "elementName": "targetedlist",
+                  "type": "text",
+                  "id": 224400
+                },
+                {
+                  "elementName": "updateddate",
+                  "type": "date",
+                  "id": 224405
+                }
+              ],
+              "generation": 2,
+              "id": 78385
+            }
+          ],
+          "id": 78398
+        }
+      ]
+    }
+  }
+}
+}
